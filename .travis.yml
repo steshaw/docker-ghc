@@ -6,16 +6,25 @@ services:
   - docker
 
 before_install:
-  - echo before_install()
+  - echo "before_install()"
   - docker pull debian:jessie
   - docker build
   - docker ps -a
 
 install:
-  - echo install()
+  - echo "install()"
 
 before_script:
-  - echo before_script()
+  - echo "before_script()"
 
 script:
-  - echo script()
+  - echo "script()"
+  - echo "----------------------------------------"
+  - echo "----------------------------------------"
+  - echo "----------------------------------------"
+  - cat build.sh
+  - cat /home/travis/build.sh
+  - pwd
+  - echo "----------------------------------------"
+  - echo "----------------------------------------"
+  - echo "----------------------------------------"
