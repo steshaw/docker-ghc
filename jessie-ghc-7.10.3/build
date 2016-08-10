@@ -8,8 +8,11 @@ apt-get update
 apt-get -t jessie-backports install -y \
     ghc \
     cabal-install \
+    pkg-config \
     git \
-    zlib1g-dev
+    zlib1g-dev \
+    libffi-dev
 ghc --version
 cabal --version
 git --version
+pkg-config --version
