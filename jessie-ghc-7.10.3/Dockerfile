@@ -5,7 +5,7 @@ run \
     echo 'deb http://httpredir.debian.org/debian jessie-backports main' >>/etc/apt/sources.list && \
     apt-get update && \
     apt-get -t jessie-backports install -y ghc cabal-install
-run apt-get install -y git make pkg-config zlib1g-dev libffi-dev
+run apt-get install -y git make pkg-config zlib1g-dev libffi-dev xz
 run ghc --version
 run cabal --version
 run git --version
