@@ -1,1 +1,11 @@
 * docker-ghc
+
+
+** To do
+
+- Install explicit versions (rather than using backports).
+  - ghc
+      - https://www.haskell.org/ghc/download_ghc_8_0_1#linux_x86_64
+      - https://www.haskell.org/ghc/download_ghc_7_10_3#linux_x86_64
+  - cabal
+    - https://www.haskell.org/cabal/release/cabal-install-1.24.0.0/cabal-install-1.24.0.0-x86_64-unknown-linux.tar.gz
